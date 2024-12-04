@@ -970,23 +970,23 @@ local UITab1 = win:Tab("『没事别点』",'7734068321')
 local about = UITab1:section("『会死』",true)
 
 about:Button("获得100r",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/yzc604/eee/refs/heads/main/666.txt"))()
+game.Players.LocalPlayer:Kick(100)
 end)
 
 about:Button("获得200r",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/yzc604/eee/refs/heads/main/666.txt"))()
+game.Players.LocalPlayer:Kick(200)
 end)
 
 about:Button("获得300r",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/yzc604/eee/refs/heads/main/666.txt"))()
+game.Players.LocalPlayer:Kick(300)
 end)
 
 about:Button("获得400r",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/yzc604/eee/refs/heads/main/666.txt"))()
+game.Players.LocalPlayer:Kick(400)
 end)
 
 about:Button("获得500r",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/yzc604/eee/refs/heads/main/666.txt"))()
+game.Players.LocalPlayer:Kick(500)
 end)
 
 local UITab1 = win:Tab("『cw』",'7734068321')
