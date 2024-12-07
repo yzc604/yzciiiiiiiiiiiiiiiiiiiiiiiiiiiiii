@@ -616,6 +616,8 @@ about:Toggle("Circle ESP", "ESP", false, function(state)
         end
     end)
 
+local about = UITab1:section("『ui区』",true)
+
 about:Toggle("脚本框架变小一点", "", false, function(state)
         if state then
         game:GetService("CoreGui")["frosty"].Main.Style = "DropShadow"
@@ -626,14 +628,6 @@ about:Toggle("脚本框架变小一点", "", false, function(state)
     about:Button("关闭脚本",function()
         game:GetService("CoreGui")["frosty"]:Destroy()
     end)
-    
-about:Toggle("移除UI辉光", "DHG", false, function(DHG)
-    if DHG then
-        game:GetService("CoreGui")["frosty is cute"].Main.DropShadowHolder.Visible = false
-    else
-        game:GetService("CoreGui")["frosty is cute"].Main.DropShadowHolder.Visible = true
-    end
-end)
 
 local about = UITab1:section("『之后的不排了』",true)
 
@@ -643,6 +637,14 @@ end)
 
 about:Button("防20分钟踢",function()
 loadstring(game:HttpGet(('https://pastefy.app/6QUXuVkW/raw'),true))()
+end)
+
+about:Button("方向固定图标",function()
+loadstring(game:HttpGet("https://pastefy.app/6ElVzqf2/raw",true))()
+end)
+
+about:Button("小羊点击传送",function()
+loadstring(game:HttpGet("https://pastefy.app/40msoRYd/raw",true))()
 end)
 
 about:Button("iy指令",function()
@@ -677,10 +679,6 @@ about:Button("踏空行走",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Float'))
 end)
 
-about:Button("飞车",function()
-loadstring(game:HttpGet("https://pastebin.com/raw/G3GnBCyC", true))()
-end)
-
 about:Button("踏空行走",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Float'))()
 end)
@@ -709,7 +707,7 @@ about:Button("玩家加入游戏提示",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/boyscp/scriscriptsc/main/bbn.lua"))()
 end)
 
-about:Button("飞车2",function()
+about:Button("飞车1",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dingding123hhh/vb/main/%E9%A3%9E%E8%BD%A6.lua"))()
 end)
 
