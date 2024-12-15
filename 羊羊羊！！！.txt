@@ -625,6 +625,16 @@ about:Toggle("Circle ESP", "ESP", false, function(state)
         end
     end)
 
+local about = UITab1:section("『飞车区』",true)
+
+about:Button("小羊飞车",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/sU3bkZns"))()
+end)
+
+about:Button("飞车1",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dingding123hhh/vb/main/%E9%A3%9E%E8%BD%A6.lua"))()
+end)
+
 local about = UITab1:section("『ui区』",true)
 
 about:Toggle("脚本框架变小一点", "", false, function(state)
@@ -714,10 +724,6 @@ end)
 
 about:Button("玩家加入游戏提示",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/boyscp/scriscriptsc/main/bbn.lua"))()
-end)
-
-about:Button("飞车1",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/dingding123hhh/vb/main/%E9%A3%9E%E8%BD%A6.lua"))()
 end)
 
 about:Button("旋转",function()
