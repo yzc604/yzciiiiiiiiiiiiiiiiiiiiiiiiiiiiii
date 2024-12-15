@@ -635,6 +635,16 @@ about:Button("飞车1",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dingding123hhh/vb/main/%E9%A3%9E%E8%BD%A6.lua"))()
 end)
 
+local about = UITab1:section("『穿墙区』",true)
+
+about:Button("英文",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MaksBloxX/NoClipScript/main/NoClip%20Roblox"))()
+end)
+
+about:Button("汉化穿墙",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TtmScripter/OtherScript/main/Noclip"))()
+end)
+
 local about = UITab1:section("『ui区』",true)
 
 about:Toggle("脚本框架变小一点", "", false, function(state)
@@ -676,10 +686,6 @@ end)
 
 about:Button("fps显示",function()
 loadstring(game:HttpGet("https://pastefy.app/d9j82YJr/raw",true))()
-end)
-
-about:Button("汉化穿墙",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/TtmScripter/OtherScript/main/Noclip"))()
 end)
 
 about:Button("解帧",function()
